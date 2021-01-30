@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     
     private let emailField: UITextField = {
        let emailField = UITextField()
-        emailField.placeholder = "E-mail Addrees"
+        emailField.placeholder = "E-mail Address"
         emailField.layer.borderWidth = 1
         emailField.layer.borderColor = UIColor.black.cgColor
         emailField.layer.cornerRadius = 10
